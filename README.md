@@ -19,21 +19,25 @@ Este repositório contém um projeto Python que automatiza a busca diária de no
 
 2. Crie um ambiente virtual e ative:
 
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/macOS
+   venv\Scripts\activate     # Windows
 
 3. Instale as dependências:
 
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. Crie um arquivo .env na raiz do projeto com sua chave da NewsAPI:
 
-NEWSAPI_KEY=sua_chave
+   ```bash
+   NEWSAPI_KEY=sua_chave
 
 5. Execute o script manualmente:
 
-python src/main.py
+   ```bash
+   python src/main.py
 
 ## GitHub Actions
 O workflow automatizado está configurado para rodar o script diariamente e realizar commit automático das atualizações no arquivo de notícias.
