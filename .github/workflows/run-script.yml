@@ -25,3 +25,15 @@ jobs:
 
       - name: Executar script principal
         run: python src/main.py
+
+      - name: Configurar git para commit
+        run: |
+          git config user.name "Igor Lopes"
+          git config user.email "igorbarbosalopes@outlook.com"
+
+      - name: Commit e push das mudanças
+        run: |
+          git add data/latest_data.json
+          git diff --quiet && echo "Sem mudanças para commitar." || (git commit -m "Atualiza notícias automaticamente" && git push)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
