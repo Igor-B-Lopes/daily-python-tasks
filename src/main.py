@@ -1,6 +1,9 @@
+from dotenv import load_dotenv
 import os
 import requests
 import json
+
+load_dotenv()
 
 API_KEY = os.getenv("NEWSAPI_KEY")
 NEWS_URL = (
