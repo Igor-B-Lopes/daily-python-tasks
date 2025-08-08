@@ -1,8 +1,8 @@
+import os
 import requests
 import json
-import os
 
-API_KEY = "99b0248899ed4fc08dce768e8e13989f"
+API_KEY = os.getenv("NEWSAPI_KEY")
 NEWS_URL = (
     "https://newsapi.org/v2/top-headlines?"
     "category=technology&language=en&country=us&pageSize=5"
