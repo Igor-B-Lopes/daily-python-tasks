@@ -1,1 +1,1 @@
-"# Projeto de Automaá∆o com Python" 
+"# Projeto de Automatiza√ß√£o com Python" 
