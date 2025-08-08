@@ -42,7 +42,8 @@ Este repositório contém um projeto Python que automatiza a busca diária de no
 ## GitHub Actions
 O workflow automatizado está configurado para rodar o script diariamente e realizar commit automático das atualizações no arquivo de notícias.
 
-Tecnologias utilizadas
+Tecnologias utilizadas:
+
 - Python 3.11
 
 - Requests
