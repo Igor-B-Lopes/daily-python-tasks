@@ -33,7 +33,11 @@ jobs:
 
       - name: Commit e push das mudanças
         run: |
-          git add data/latest_data.json
-          git diff --quiet && echo "Sem mudanças para commitar." || (git commit -m "Atualiza notícias automaticamente" && git push)
+          if [ -f data/latest_data.json ]; then
+            git add data/latest_data.json
+            git diff --quiet && echo "Sem mudanças para commitar." || (git commit -m "Atualiza notícias automaticamente" && git push)
+          else
+            echo "Arquivo data/latest_data.json não encontrado, nada para commitar."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
