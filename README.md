@@ -1,2 +1,1 @@
-# daily-python-tasks
-Automated Python routine to collect and update daily tech news and data on GitHub using GitHub Actions.
+"# Projeto de Automa‡Æo com Python" 
