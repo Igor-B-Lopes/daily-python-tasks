@@ -34,5 +34,7 @@ def main():
     except Exception as e:
         print("Erro ao buscar notícias:", e)
 
+    print("Teste de e-mail no GitHub")    
+
 if __name__ == "__main__":
     main()
