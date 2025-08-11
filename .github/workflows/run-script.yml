@@ -28,26 +28,23 @@ jobs:
 
       - name: Configurar identidade do commit
         run: |
-          git config --global user.name "Igão"
-          git config --global user.email "igorbarbosalopes@outlook.com"
+          git config user.name "Igão"
+          git config user.email "igorbarbosalopes@outlook.com"
 
-      - name: Forçar atualização do arquivo
+      - name: Atualizar arquivo para garantir commit
         run: |
           date >> update-log.txt
           git add update-log.txt
 
-      - name: Configurar git para commit
-        run: |
-          git config user.name "Igor Lopes"
-          git config user.email "igorbarbosalopes@outlook.com"
-
-      - name: Commit e push das mudanças
+      - name: Adicionar latest_data.json se existir
         run: |
           if [ -f data/latest_data.json ]; then
             git add data/latest_data.json
-            git diff --quiet && echo "Sem mudanças para commitar." || (git commit -m "Atualiza notícias automaticamente" && git push)
-          else
-            echo "Arquivo data/latest_data.json não encontrado, nada para commitar."
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit e push das mudanças
+        run: |
+          git diff --quiet && echo "Sem mudanças para commitar." || (
+            git commit -m "Atualiza notícias automaticamente e log de execução"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Igor-B-Lopes/daily-python-tasks.git
+          )
