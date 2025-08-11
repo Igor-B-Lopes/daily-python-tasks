@@ -1,0 +1,67 @@
+[
+  {
+    "source": {
+      "id": null,
+      "name": "Nintendo Life"
+    },
+    "author": "Ollie Reynolds",
+    "title": "Metroid Prime 4, Elden Ring, Silksong All Playable At Nintendo's Gamescom Booth - Nintendo Life",
+    "description": "Plus many more!",
+    "url": "https://www.nintendolife.com/news/2025/08/metroid-prime-4-elden-ring-silksong-all-playable-at-nintendos-gamescom-booth",
+    "urlToImage": "https://images.nintendolife.com/2a117fca78a6d/large.jpg",
+    "publishedAt": "2025-08-07T10:15:00Z",
+    "content": "Image: Nintendo Life\r\nNintendo will be making an appearance at this year's Gamescom, and it looks like the company's full line-up of games has been revealed (thanks, Games Wirtschaft). It's a doozy, \u2026 [+1098 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Video Games Chronicle"
+    },
+    "author": "Chris Scullion",
+    "title": "Sony CFO says its live service shift is \u2018not entirely going smoothly\u2019 but pledges to carry on and learn from mistakes - Video Games Chronicle",
+    "description": "Lin Tao says progress has been made despite \"somewhat negative news\" caused by Concord and Marathon",
+    "url": "https://www.videogameschronicle.com/news/sony-cfo-says-its-live-service-shift-is-not-entirely-going-smoothly-but-pledges-to-carry-on-and-learn-from-mistakes/",
+    "urlToImage": "https://www.videogameschronicle.com/files/2024/06/concord-character-art.webp",
+    "publishedAt": "2025-08-07T09:18:46Z",
+    "content": "Sony\u2019s chief financial officer says the company will learn from its live service failures, but insists that progress has been made despite them.\r\nIn a Q&amp;A session following the companys latest fi\u2026 [+2655 chars]"
+  },
+  {
+    "source": {
+      "id": "ign",
+      "name": "IGN"
+    },
+    "author": "Wesley Yin-Poole",
+    "title": "Battlefield 6 Open Beta Forces PC Gamers to Mess About With Their BIOS to Enable Secure Boot \u2014 and Call of Duty: Black Ops 7 Is Next - IGN",
+    "description": "If you\u2019re trying to play the Battlefield 6 Open Beta on PC, you might have run into a problem: \u2018Secure Boot is not enabled.\u2019 You're not alone.",
+    "url": "https://www.ign.com/articles/battlefield-6-open-beta-forces-pc-gamers-to-mess-about-with-their-bios-to-enable-secure-boot-and-call-of-duty-black-ops-7-is-next",
+    "urlToImage": "https://assets-prd.ignimgs.com/2025/08/07/screenshot-2025-08-06-214819-1754556150175.png?width=1280&format=jpg&auto=webp&quality=80",
+    "publishedAt": "2025-08-07T08:48:41Z",
+    "content": "If youre trying to play the Battlefield 6 Open Beta on PC, you might have run into a problem: Secure Boot is not enabled.\r\nYou are not alone. PC gamers hoping to play DICEs latest now open beta early\u2026 [+2765 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Video Games Chronicle"
+    },
+    "author": "Chris Scullion",
+    "title": "Sony CFO says Marathon is expected to release before March, and Bungie\u2019s independence is \u2018getting lighter\u2019 - Video Games Chronicle",
+    "description": "\"We are now fixing the problems, so we believe this launch will happen\"",
+    "url": "https://www.videogameschronicle.com/news/sony-cfo-says-marathon-is-expected-to-release-before-march-and-bungies-independence-is-getting-lighter/",
+    "urlToImage": "https://www.videogameschronicle.com/files/2023/10/marathon-a.jpg",
+    "publishedAt": "2025-08-07T08:37:28Z",
+    "content": "Sony\u2019s chief financial officer has said she expects Marathon to release by the end of March 2026.\r\nIn a Q&amp;A session following the company\u2019s latest financial results, Sony\u2018s execs were asked about\u2026 [+2477 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "BleepingComputer"
+    },
+    "author": "Sergiu Gatlan",
+    "title": "Microsoft warns of high-severity flaw in hybrid Exchange deployments - BleepingComputer",
+    "description": "Microsoft has warned customers to mitigate a high-severity vulnerability in Exchange Server hybrid deployments that could allow attackers to escalate privileges in Exchange Online cloud environments undetected.",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-high-severity-flaw-in-hybrid-exchange-deployments/",
+    "urlToImage": "https://www.bleepstatic.com/content/hl-images/2025/08/07/Microsoft.jpg",
+    "publishedAt": "2025-08-07T07:50:45Z",
+    "content": "Microsoft has warned customers to mitigate a high-severity vulnerability in Exchange Server hybrid deployments that could allow attackers to escalate privileges in Exchange Online cloud environments \u2026 [+3655 chars]"
+  }
+]

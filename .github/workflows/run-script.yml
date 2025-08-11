@@ -26,6 +26,16 @@ jobs:
       - name: Executar script principal
         run: python src/main.py
 
+      - name: Configurar identidade do commit
+        run: |
+          git config --global user.name "Igão"
+          git config --global user.email "igorbarbosalopes@outlook.com"
+
+      - name: Forçar atualização do arquivo
+        run: |
+          date >> update-log.txt
+          git add update-log.txt
+
       - name: Configurar git para commit
         run: |
           git config user.name "Igor Lopes"
